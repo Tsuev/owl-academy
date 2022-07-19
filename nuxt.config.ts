@@ -5,4 +5,5 @@ export default defineNuxtConfig({
     buildModules: [
         'nuxt-windicss',
     ],
+    css: ['@/assets/light.css'],
 })
