@@ -2,8 +2,6 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    buildModules: [
-        'nuxt-windicss',
-    ],
-    css: ['@/assets/light.css'],
+  buildModules: ['nuxt-windicss', '@nuxtjs/google-fonts'],
+  css: ['@/assets/scss/global.scss', '@/assets/light.css']
 })
